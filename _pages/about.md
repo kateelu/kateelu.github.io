@@ -31,17 +31,21 @@ Bachelor of Science in Computer Science<br>
 Bachelor of Science in Applied Mathematics: Data Science
 
 # 💼 Work Experience
-- <span style="font-size: 18px;"><strong>United Automotive Electronic Systems (UAES)</strong></span>, *Jun - Aug 2026*<br>
+- <span style="font-size: 18px;"><strong>United Automotive Electronic Systems (UAES) – Bosch JV</strong></span>, *Jun - Aug 2026*<br>
   *Algorithm Engineer Intern*<br>
-  - Built an automated evaluation framework based on OmniDocBench to benchmark internal document parsing tools, enabling systematic comparison of parsing quality and identification of model weaknesses.
+  - Developed an automated OmniDocBench-based evaluation and data feedback framework for structured information extraction from automotive technical documents; integrated LLM-based logical validation, image-encoder features, unsupervised clustering, and targeted human annotation to identify high-value error cases and reduce redundant labeling.
 
-  - Designed and implemented a data feedback loop for a PaddleX-based PDF parsing pipeline, combining LLM-based logical validation, image encoder features, and unsupervised clustering to identify challenging samples and reduce redundant annotation. Curated a high-quality reference dataset with targeted human annotation to support model iteration.
+  - Designed comparative experiments across model versions and document categories, evaluating the parsing of text, formulas, tables, and reading order; conducted error analysis to guide model iteration, improving the overall parsing score from **86.86 to 91.72**, a **5.6% relative increase**.
 
-  - Drove iterative model improvements through continuous evaluation, issue feedback to the modeling team, and re-evaluation of updated models, contributing to an increase in the document parsing evaluation score from **86.86 to 91.72**. Exposed the document parsing pipeline through an API for subsequent internal use.
+  - Collaborated with model R&D, data annotation, and engineering teams, delivering model performance reports, prioritized error cases, and curated training samples based on evaluation results; packaged the parsing pipeline as a FastAPI service and authored evaluation metric documentation, an internal usage guide, and a comprehensive project report.
 
-- <span style="font-size: 18px;"><strong>iFLYTEK Co., Ltd	</strong></span>, *Jun - Sep 2025*  
-  *Algorithm Engineer Intern*  
-  - Development and optimization of reusable pipeline scripts integrating x-vector extraction, vq-code generation, prosody analysis, PyDur-based duration modeling, and MFA-based phoneme alignment, enabling large-scale speech synthesis. Proposed and implemented a variance-based speech quality detection method, improving anomaly detection accuracy at waveform boundaries. Collaborated with team members and reported weekly progress in project meetings.
+- <span style="font-size: 18px;"><strong>iFLYTEK Co., Ltd.</strong></span>, *Jul - Sep 2025*<br>
+  *Algorithm Engineer Intern*<br>
+  - Developed and optimized reusable Python and Bash scripts to transform raw multilingual speech corpora into feature representations for large-scale TTS model training; orchestrated x-vector extraction, Wav2Vec-based VQ-code generation, prosody analysis, PyDur-based duration processing, and MFA phoneme alignment, processing **nearly 800,000 utterances**.
+
+  - Designed a variance-based speech quality detection method to identify low-energy trailing segments and waveform-boundary anomalies; benchmarked it against the existing RMS-based method on manually reviewed multilingual samples and tuned boundary windows and detection thresholds, reducing the false-negative rate from **31% to approximately 22%**.
+
+  - Collaborated with data and speech-modeling teams to address feature and data-quality requirements for model training, delivering model-ready multilingual datasets and data-quality analyses; communicated experimental results and data-processing progress through weekly reviews.
 
 - <span style="font-size: 18px;"><strong>Fudan University</strong></span>, *Jun–Sep 2024*  
   *Research Assistant*  
